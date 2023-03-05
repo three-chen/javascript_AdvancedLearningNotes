@@ -1,3 +1,5 @@
+[TOC]
+
 # 12Web浏览器中的JavaScript
 
 ## 客户端JavaScript
