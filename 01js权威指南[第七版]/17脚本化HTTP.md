@@ -6,7 +6,7 @@
 
 ## XMLHttpRequest
 
-读者自行了解，现在用的很少了，用fetch()更多（虽然我看fetch里面还是用了XMLHttpRequest）。
+读者自行了解，现在有fetch()，用起来更方便，不过要等待body流。
 
 ![image-20230304141404809](assets/image-20230304141404809.png)
 

@@ -94,7 +94,7 @@ Web页面中所有JavaScript代码共用同一个全局Window对象，这意味�
 
 JavaScript第一次添加到Web浏览器时，还没有API可以用来遍历和操作文档的结构和内容。当文档还在载入时，JavaScript影响文档内容的唯一方法时快速生成内容，使用document.write()完成上述任务。
 
-```js
+```html
 <button id="mybtn">what time</button>
   <a href="javascript:alert(new Date().toLocaleTimeString());">
     what time is it?

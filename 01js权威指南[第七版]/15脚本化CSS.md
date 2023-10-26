@@ -62,7 +62,7 @@ setTimeout(disableStylesheet(0), 1000);
 ### 查询、插入与删除样式表规则
 
 CSSStyleSheet对象有一个cssRules[]数组，它包含样式表的所有规则:
-`var firstRule = document.styleSheets[o].cssRules[o];`
+`var firstRule = document.styleSheets[0].cssRules[0];`
 
 除了查询和修改样式表中已存在的规则以外，也能向样式表添加和从中删除规则。标准的API接口定义了insertRule()和deleteRule()方法来添加和删除规则：
 
